@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "named_struct"
 
 Gem::Specification.new do |spec|
-  spec.name          = "named_struct"
+  spec.name          = "namedstruct"
   spec.version       = NamedStruct::VERSION
   spec.authors       = ["Paul Kuruvilla"]
   spec.email         = ["rohitpaulk@gmail.com"]

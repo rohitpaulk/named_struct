@@ -1,5 +1,9 @@
 # NamedStruct
 
+[![Travis](https://img.shields.io/travis/rohitpaulk/named_struct.svg)](https://travis-ci.org/rohitpaulk/named_struct)
+
+[![Gem](https://img.shields.io/gem/v/namedstruct.svg)](https://rubygems.org/gems/namedstruct)
+
 `NamedStruct` is a replacement for Ruby's built-in
 [`Struct`](https://ruby-doc.org/core-2.4.0/Struct.html) that accepts keyword
 arguments instead of positional arguments.
@@ -35,13 +39,13 @@ where a gem comes in handy.
 run:
 
 ```
-gem install named_struct
+gem install namedstruct
 ```
 
 If you're using [Bundler](http://bundler.io/), add this to your Gemfile:
 
 ```ruby
-gem 'named_struct'
+gem 'namedstruct'
 ```
 
 ## Usage
