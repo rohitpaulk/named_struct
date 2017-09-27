@@ -35,13 +35,13 @@ where a gem comes in handy.
 run:
 
 ```
-gem install named_struct
+gem install namedstruct
 ```
 
 If you're using [Bundler](http://bundler.io/), add this to your Gemfile:
 
 ```ruby
-gem 'named_struct'
+gem 'namedstruct'
 ```
 
 ## Usage
