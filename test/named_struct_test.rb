@@ -11,10 +11,6 @@ class NamedStructTest < Minitest::Test
     end
   end
 
-  def test_that_it_has_a_version_number
-    refute_nil ::NamedStruct::VERSION
-  end
-
   def test_keyword_arguments
     point = ClassForTestKeywordArguments.new(x: 1, y: 2)
     assert_equal(point.x, 1)

@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "namedstruct/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "namedstruct"
-  spec.version       = NamedStruct::VERSION
+  spec.version       = "0.2.2"
   spec.authors       = ["Paul Kuruvilla"]
   spec.email         = ["rohitpaulk@gmail.com"]
 
