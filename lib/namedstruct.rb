@@ -1,6 +1,4 @@
 class NamedStruct < Struct
-  VERSION = "0.2.0"
-
   # Allow initialization via positional arguments.
   def initialize(**kwargs)
     kwargs.each{ |k, v|
